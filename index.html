@@ -1,114 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SGPA Calculator – NIT Jalandhar</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGPA Calculator - NIT Jalandhar</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="container">
+<div class="container">
     <h1>SGPA Calculator</h1>
-    <p class="subtitle">CSE / DSE – NIT Jalandhar</p>
+    <p class="subtitle">CSE / DSE - NIT Jalandhar</p>
 
     <div class="subject">
-      <label>Maths-II</label>
-      <span>4 Credits</span>
-      <select id="sub1">
-        <option value="">Grade</option>
-        <option>S</option><option>A</option><option>B</option>
-        <option>C</option><option>D</option><option>E</option>
-      </select>
+        <label>Maths-I</label>
+        <span>4 Credits</span>
+        <select id="sub1">
+            <option value="" selected disabled>Grade</option>
+            <option>S</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>E</option>
+        </select>
     </div>
 
     <div class="subject">
-      <label>DCLD</label>
-      <span>4 Credits</span>
-      <select id="sub2">
-        <option value="">Grade</option>
-        <option>S</option><option>A</option><option>B</option>
-        <option>C</option><option>D</option><option>E</option>
-      </select>
+        <label>DTI</label>
+        <span>4 Credits</span>
+        <select id="sub2">
+            <option value="" selected disabled>Grade</option>
+            <option>S</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>E</option>
+        </select>
     </div>
 
     <div class="subject">
-      <label>EEEE</label>
-      <span>3 Credits</span>
-      <select id="sub3">
-        <option value="">Grade</option>
-        <option>S</option><option>A</option><option>B</option>
-        <option>C</option><option>D</option><option>E</option>
-      </select>
+        <label>CP</label>
+        <span>3 Credits</span>
+        <select id="sub3">
+            <option value="" selected disabled>Grade</option>
+            <option>S</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>E</option>
+        </select>
     </div>
 
     <div class="subject">
-      <label>MPP</label>
-      <span>3 Credits</span>
-      <select id="sub4">
-        <option value="">Grade</option>
-        <option>S</option><option>A</option><option>B</option>
-        <option>C</option><option>D</option><option>E</option>
-      </select>
+        <label>ES</label>
+        <span>3 Credits</span>
+        <select id="sub4">
+            <option value="" selected disabled>Grade</option>
+            <option>S</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>E</option>
+        </select>
     </div>
 
     <div class="subject">
-      <label>Python</label>
-      <span>2 Credits</span>
-      <select id="sub5">
-        <option value="">Grade</option>
-        <option>S</option><option>A</option><option>B</option>
-        <option>C</option><option>D</option><option>E</option>
-      </select>
+        <label>EC</label>
+        <span>2 Credits</span>
+        <select id="sub5">
+            <option value="" selected disabled>Grade</option>
+            <option>S</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>E</option>
+        </select>
     </div>
 
     <div class="subject">
-      <label>Workshop</label>
-      <span>2 Credits</span>
-      <select id="sub6">
-        <option value="">Grade</option>
-        <option>S</option><option>A</option><option>B</option>
-        <option>C</option><option>D</option><option>E</option>
-      </select>
+        <label>DS</label>
+        <span>4 Credits</span>
+        <select id="sub6">
+            <option value="" selected disabled>Grade</option>
+            <option>S</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>E</option>
+        </select>
     </div>
 
     <div class="subject">
-      <label>Python Lab</label>
-      <span>1 Credit</span>
-      <select id="sub7">
-        <option value="">Grade</option>
-        <option>S</option><option>A</option><option>B</option>
-        <option>C</option><option>D</option><option>E</option>
-      </select>
+        <label>CP Lab</label>
+        <span>1 Credit</span>
+        <select id="sub7">
+            <option value="" selected disabled>Grade</option>
+            <option>S</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>E</option>
+        </select>
     </div>
 
     <div class="subject">
-      <label>EEEE Lab</label>
-      <span>1 Credit</span>
-      <select id="sub8">
-        <option value="">Grade</option>
-        <option>S</option><option>A</option><option>B</option>
-        <option>C</option><option>D</option><option>E</option>
-      </select>
+        <label>ES Lab</label>
+        <span>1 Credit</span>
+        <select id="sub8">
+            <option value="" selected disabled>Grade</option>
+            <option>S</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>E</option>
+        </select>
     </div>
 
     <div class="subject">
-      <label>Foundation Elective</label>
-      <span>1 Credit</span>
-      <select id="sub9">
-        <option value="">Grade</option>
-        <option>S</option><option>A</option><option>B</option>
-        <option>C</option><option>D</option><option>E</option>
-      </select>
+        <label>NSS</label>
+        <span>1 Credit</span>
+        <select id="sub9">
+            <option value="" selected disabled>Grade</option>
+            <option>S</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>E</option>
+        </select>
+    </div>
+
+    <div class="subject">
+        <label>EC Lab</label>
+        <span>1 Credit</span>
+        <select id="sub10">
+            <option value="" selected disabled>Grade</option>
+            <option>S</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+            <option>E</option>
+        </select>
     </div>
 
     <button id="calculateBtn">Calculate SGPA</button>
 
     <div class="result">
-      SGPA: <span id="sgpaResult">--</span>
+        SGPA
+        <div id="sgpaResult">--</div>
     </div>
-  </div>
+</div>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
-    </html>
+</html>
